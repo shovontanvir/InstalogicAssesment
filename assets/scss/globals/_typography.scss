@@ -1,0 +1,61 @@
+@use '../util';
+
+.fs-sm {
+    font-size: util.rem(14);
+}
+
+.main-heading {
+    font-size: util.rem(50);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.6;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        font-size: util.rem(100);
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: util.rem(80);
+    }
+
+    @media screen and (min-width: 576px) {
+        font-size: util.rem(72);
+    }
+
+
+}
+
+.sub-heading {
+    font-size: util.rem(30);
+    // font-family: "Poppins";
+    text-transform: uppercase;
+    line-height: 0.6;
+    text-align: center;
+
+
+    @media screen and (min-width: 1200px) {
+        font-size: util.rem(53.33);
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: util.rem(48);
+    }
+
+    @media screen and (min-width: 576px) {
+        font-size: util.rem(40);
+    }
+
+
+
+}
+
+.text-justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-brand {
+    color: util.$brand;
+}
+  
